@@ -1,38 +1,7 @@
-# create-svelte
+# Destino del Mes
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+O **Destino del Mes** é um projeto de site de viagens dedicado a inspirar e informar os viajantes sobre os destinos mais incríveis ao redor do mundo. Nossa missão é proporcionar uma experiência única, oferecendo informações detalhadas, dicas exclusivas e roteiros personalizados para cada destino em destaque.
 
-## Creating a project
+Em nosso site, você encontrará uma variedade de artigos e guias escritos por especialistas em viagens, explorando desde os pontos turísticos mais famosos até os locais menos conhecidos, mas igualmente fascinantes. Além disso, nossa comunidade de viajantes compartilha experiências e recomendações, tornando o **Destino del Mes** não apenas um site, mas uma comunidade de apaixonados por viagens.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Junte-se a nós nesta jornada pelo mundo e descubra os destinos que tornarão sua próxima viagem inesquecível!
