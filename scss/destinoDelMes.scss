@@ -1,0 +1,100 @@
+@import "_font-faces.scss";
+@import "_new-header.scss";
+@import "_content.scss";
+@import "_countdown.scss";
+
+.cm-design-sytem.styles-override .ddmHeader .h2,
+.cm-design-sytem.styles-override .ddmHeader h2 {
+  font-size: 5em !important;
+  margin-bottom: 0.3em !important;
+}
+
+header .AT {
+  background: #0032a0;
+}
+
+.cm-design-sytem.styles-override .color-light-blue {
+  color: #00a3e0 !important;
+}
+
+.cm-design-sytem.styles-override .font-gilroy {
+  font-family: Gilroy, "Suisse Int'l", Helvetica, Arial, sans-serif !important;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.CV {
+  text-align: center !important;
+}
+
+.Bb {
+  color: #0032a0 !important;
+}
+
+.selectorCent {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+body {
+  &::-webkit-scrollbar-track {
+    background-color: rgba($color: #000, $alpha: 0.15);
+  }
+
+  &::-webkit-scrollbar {
+    background-color: rgba($color: #000, $alpha: 0.15);
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba($color: #0032a0, $alpha: 0.9);
+    border-radius: 5px;
+  }
+}
+
+.cm-design-sytem.styles-override button {
+  border: 1px solid #0032a0;
+  padding: 8px 24px;
+  width: auto;
+  height: auto;
+  background: #0032a0;
+  border-radius: 100px;
+  color: #fff;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  .cm-design-sytem.styles-override button {
+    margin-top: 16px;
+  }
+}
+
+@media only screen and (min-width: 1202px) {
+  .cm-design-sytem.styles-override button {
+    margin-top: 0px;
+  }
+}
+
+.cm-design-sytem.styles-override button:hover {
+  border: 1px solid #001a66;
+  background: #001a66;
+}
+.cm-design-sytem.styles-override button:focus {
+  background: #001a66;
+  outline: #001a66 solid 1px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+}
+.cm-design-sytem.styles-override button:visited a {
+  color: #fff;
+}
